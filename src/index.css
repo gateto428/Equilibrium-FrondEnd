@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  html{
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
+@font-face {
+  font-family: "Lobster-Regular";   /*Can be any text*/
+  src: local("Lobster-Regular"),
+    url("../src/fonts/Lobster-Regular.ttf") format("truetype");
+}
